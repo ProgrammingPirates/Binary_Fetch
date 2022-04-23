@@ -17,6 +17,9 @@ export class Paper extends Entity {
     super();
     this.set("id", Value.fromString(id));
   }
+  set(arg0: string, arg1: any) {
+    throw new Error("Method not implemented.");
+  }
 
   save(): void {
     let id = this.get("id");
@@ -27,6 +30,9 @@ export class Paper extends Entity {
         'Considering using .toHex() to convert the "id" to a string.'
     );
     store.set("Paper", id.toString(), this);
+  }
+  get(arg0: string) {
+    throw new Error("Method not implemented.");
   }
 
   static load(id: string): Paper | null {
@@ -111,6 +117,9 @@ export class PaperFunding extends Entity {
     super();
     this.set("id", Value.fromString(id));
   }
+  set(arg0: string, arg1: any) {
+    throw new Error("Method not implemented.");
+  }
 
   save(): void {
     let id = this.get("id");
@@ -121,6 +130,9 @@ export class PaperFunding extends Entity {
         'Considering using .toHex() to convert the "id" to a string.'
     );
     store.set("PaperFunding", id.toString(), this);
+  }
+  get(arg0: string) {
+    throw new Error("Method not implemented.");
   }
 
   static load(id: string): PaperFunding | null {

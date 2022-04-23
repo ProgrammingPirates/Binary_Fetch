@@ -1,4 +1,3 @@
-import { BigInt, Value } from "@graphprotocol/graph-ts";
 import {
   PaperHouse,
   Approval,

@@ -10,7 +10,7 @@ import "react-toastify/dist/ReactToastify.css";
 
 const client = new NFTStorage({
   token:
-    "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWQ6ZXRocjoweDAwZjA4NWQ0OEYzZjVFMDIwQjExNDM3YkI3NjQ5QzEzMzRkQjYyRUEiLCJpc3MiOiJuZnQtc3RvcmFnZSIsImlhdCI6MTYyNjg4NjYxMzY0MywibmFtZSI6IlBhcGVySG91c2UifQ.WQed-WCw9v-GhNGhbzfOaf3PwfCIiZAa44f0oc9SgGo",
+    "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWQ6ZXRocjoweGY2MkZEODYyMGRjODY2N2FEMjQ5Q0QzRDc1RDhFNzI1MmMyREQ1OEMiLCJpc3MiOiJuZnQtc3RvcmFnZSIsImlhdCI6MTY1MDczMTEzODgxNiwibmFtZSI6ImFwaSJ9.k9ZAGOZUkHkM-cQQYOiQQXEzc_LG3yI4jfKVg_rccgY",
 });
 export const toastStyles = {
   default: {

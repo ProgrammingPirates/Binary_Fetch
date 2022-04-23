@@ -11,6 +11,7 @@ import {
 } from "@graphprotocol/graph-ts";
 
 export class Approval extends ethereum.Event {
+  parameters: any;
   get params(): Approval__Params {
     return new Approval__Params(this);
   }
@@ -37,6 +38,7 @@ export class Approval__Params {
 }
 
 export class ApprovalForAll extends ethereum.Event {
+  parameters: any;
   get params(): ApprovalForAll__Params {
     return new ApprovalForAll__Params(this);
   }
@@ -63,6 +65,9 @@ export class ApprovalForAll__Params {
 }
 
 export class Funding extends ethereum.Event {
+  parameters: any;
+  transaction: any;
+  logIndex: any;
   get params(): Funding__Params {
     return new Funding__Params(this);
   }
@@ -97,6 +102,7 @@ export class Funding__Params {
 }
 
 export class Published extends ethereum.Event {
+  parameters: any;
   get params(): Published__Params {
     return new Published__Params(this);
   }
@@ -135,6 +141,7 @@ export class Published__Params {
 }
 
 export class Transfer extends ethereum.Event {
+  parameters: any;
   get params(): Transfer__Params {
     return new Transfer__Params(this);
   }
@@ -161,6 +168,7 @@ export class Transfer__Params {
 }
 
 export class UpdatePaper extends ethereum.Event {
+  parameters: any;
   get params(): UpdatePaper__Params {
     return new UpdatePaper__Params(this);
   }
@@ -228,7 +236,7 @@ export class PaperHouse__papersResult {
 
 export class PaperHouse extends ethereum.SmartContract {
   static bind(address: Address): PaperHouse {
-    return new PaperHouse("PaperHouse", address);
+    return new PaperHouse("BookBank", address);
   }
 
   balanceOf(owner: Address): BigInt {
@@ -457,6 +465,7 @@ export class ConstructorCall__Outputs {
 }
 
 export class ApproveCall extends ethereum.Call {
+  inputValues: any;
   get inputs(): ApproveCall__Inputs {
     return new ApproveCall__Inputs(this);
   }
@@ -491,6 +500,7 @@ export class ApproveCall__Outputs {
 }
 
 export class SafeTransferFromCall extends ethereum.Call {
+  inputValues: any;
   get inputs(): SafeTransferFromCall__Inputs {
     return new SafeTransferFromCall__Inputs(this);
   }
@@ -529,6 +539,7 @@ export class SafeTransferFromCall__Outputs {
 }
 
 export class SafeTransferFrom1Call extends ethereum.Call {
+  inputValues: any;
   get inputs(): SafeTransferFrom1Call__Inputs {
     return new SafeTransferFrom1Call__Inputs(this);
   }
@@ -571,6 +582,7 @@ export class SafeTransferFrom1Call__Outputs {
 }
 
 export class SetApprovalForAllCall extends ethereum.Call {
+  inputValues: any;
   get inputs(): SetApprovalForAllCall__Inputs {
     return new SetApprovalForAllCall__Inputs(this);
   }
@@ -605,6 +617,7 @@ export class SetApprovalForAllCall__Outputs {
 }
 
 export class TransferFromCall extends ethereum.Call {
+  inputValues: any;
   get inputs(): TransferFromCall__Inputs {
     return new TransferFromCall__Inputs(this);
   }
@@ -643,6 +656,7 @@ export class TransferFromCall__Outputs {
 }
 
 export class PublishCall extends ethereum.Call {
+  inputValues: any;
   get inputs(): PublishCall__Inputs {
     return new PublishCall__Inputs(this);
   }
@@ -685,6 +699,7 @@ export class PublishCall__Outputs {
 }
 
 export class FundapaperCall extends ethereum.Call {
+  inputValues: any;
   get inputs(): FundapaperCall__Inputs {
     return new FundapaperCall__Inputs(this);
   }
@@ -715,6 +730,7 @@ export class FundapaperCall__Outputs {
 }
 
 export class UpdatepaperCall extends ethereum.Call {
+  inputValues: any;
   get inputs(): UpdatepaperCall__Inputs {
     return new UpdatepaperCall__Inputs(this);
   }

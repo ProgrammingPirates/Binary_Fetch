@@ -1,4 +1,4 @@
-var PaperHouse = artifacts.require("./PaperHouse.sol");
+var PaperHouse = artifacts.require("./book.sol");
 
 module.exports = function(deployer) {
   deployer.deploy(PaperHouse);

@@ -57,7 +57,7 @@ Starting migrations...
 2_deploy_contracts.js
 =====================
 
-   Replacing 'PaperHouse'
+   Replacing 'BookBank'
    ----------------------
    > transaction hash:    0x92822ad8a43b71e0dd89d68247c22d2e5613e4debb34a316e93e68062779ed67
    > Blocks: 2            Seconds: 4

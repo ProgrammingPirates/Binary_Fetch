@@ -11,8 +11,8 @@ import {
 import PaperHouse from "../contracts/PaperHouse.json";
 
 const portis = new Portis(
-  "175d7ef0-8644-4b07-9ce9-d40ce13ed8cb",
-  "maticMumbai"
+  "988832b6-dc88-4379-9660-e44631b49a57",
+  "mainnet"
 );
 
 const getInstance = (web3, Networkid) => {
