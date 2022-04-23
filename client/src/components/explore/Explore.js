@@ -33,7 +33,7 @@ export const Explore = () => {
   return (
     <div className="explore container">
       <div className="explore_title">
-        <h3>Explore</h3>
+        <h3>Book Bank</h3>
       </div>
       <div className="explore_categories">
         <button
