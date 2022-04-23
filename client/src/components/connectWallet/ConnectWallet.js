@@ -8,8 +8,7 @@ const ConnectWallet = () => {
       <svg
         id="b1dfe96f-fe37-4185-8264-ce8c2a4cb4b9"
         data-name="Layer 1"
-        // xmlns="http://www.w3.org/2000/svg"
-        // xmlns:xlink="http://www.w3.org/1999/xlink"
+     
         width="1073"
         height="741.95"
         viewBox="0 0 1073 741.95"

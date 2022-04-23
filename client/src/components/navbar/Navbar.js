@@ -54,7 +54,7 @@ export const Navbar = () => {
   const height = useDimensions(containerRef);
   const [Searchinput, setSearchinput] = useState(undefined);
 
-  //add paperId of paper here to blacklist tht paper
+
   const Paper_blacklist = [10];
 
   const { connected, correctNetwork, address } = useSelector(
@@ -394,7 +394,7 @@ export const Navbar = () => {
                       </div>
                       <div className="mobile__nav-dropdown-socialMedia">
                         <div className="mobile-nav-social">
-                          <a href="https://github.com/Paper-House" target="_blank">
+                          <a href="https://github.com/ProgrammingPirates/Binary_Fetch" target="_blank">
                             <svg
                               width="18"
                               height="18"
