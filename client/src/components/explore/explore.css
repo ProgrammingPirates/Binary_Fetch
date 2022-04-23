@@ -1,0 +1,241 @@
+.explore {
+  width: 100%;
+  height: 100%;
+  margin-top: 65px;
+}
+.explore_title h3 {
+  font-family: "Open Sans";
+  font-weight: 500;
+  font-size: 3em;
+  color: #0097fd;
+  margin-top: 10px;
+}
+.explore_categories {
+  margin: 10px 0px;
+  overflow: auto;
+  display: flex;
+  text-align: center;
+  padding: 10px 0px;
+}
+.explore_category_item {
+  padding: 5px 20px;
+  border-radius: 100px;
+  border: 1px solid #0097fd;
+  cursor: pointer;
+  color: #0097fd;
+  margin-right: 15px;
+  transition: 0.2s ease-in-out;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 1.1em;
+  min-width: fit-content;
+}
+
+.explore_category_item:hover {
+  color: white;
+  background-color: #0097fd;
+  box-shadow: 0px 0px 10px #0097fd;
+}
+
+button[aria-expanded="true"] {
+  color: white;
+  background-color: #0097fd;
+  box-shadow: 0px 0px 10px #0097fd;
+}
+.explore_papers {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 300px);
+  gap: 25px;
+  margin-top: 20px;
+  width: 100%;
+}
+/* card */
+
+.paper_card {
+  width: 300px;
+  height: fit-content;
+  border: 2px solid #0097fd;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: 0.2s ease-in-out;
+}
+
+.paper_card:hover {
+  box-shadow: 0px 0px 8px #0097fd;
+}
+.paper_card_img {
+  width: 100%;
+  height: 170px;
+}
+.paper_card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.paper_card_details {
+  padding: 10px;
+}
+.paper_card_title h3 {
+  font-family: "Open Sans";
+  font-size: 1em;
+  color: white;
+  font-weight: 600;
+}
+
+.paper_card_author {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.paper_card_author h3,
+.paper_card_date h3 {
+  font-family: "Open Sans";
+  font-size: 0.9em;
+  color: white;
+  font-weight: 500;
+  margin-top: 10px;
+}
+.paper_card_category {
+  margin: 10px 0;
+  padding: 5px 10px;
+  font-family: "Open Sans";
+  font-size: 0.9em;
+  color: white;
+  font-weight: 500;
+  background-color: #0097fd;
+  width: fit-content;
+  border-radius: 100px;
+}
+
+.paper_card_fundtoggle,
+.paper_card_fundamount_input {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.paper_card_fundtoggle h3,
+.paper_card_fundamount_input h3 {
+  font-family: "Open Sans";
+  font-size: 1em;
+  color: #0097fd;
+  font-weight: 600;
+}
+.paper_card_fundamount_input_disabled {
+  opacity: 0.5 !important;
+}
+
+.paper_card_title h3 {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.paper_card_update button {
+  padding: 5px 15px;
+  background-color: #0097fd;
+  color: white;
+  font-size: 1.1em;
+  font-weight: 400;
+  border-radius: 100px;
+  outline: none;
+  border: none;
+  /* margin-top: 10px; */
+  cursor: pointer;
+}
+.paper_card_fundamount_input input {
+  width: 80px;
+  height: 25px;
+  border-radius: 100px;
+  background-color: rgba(0, 151, 253, 0.3);
+  border: none;
+  outline: none;
+  padding: 10px;
+  font-size: 1em;
+  color: #0097fd;
+  font-weight: 400;
+}
+.paper_card_fundamount_input input::placeholder {
+  color: #0097fd;
+}
+
+.switch {
+  position: relative;
+  width: 35px;
+  height: 18px;
+  cursor: pointer;
+}
+.switch input[type="checkbox"] {
+  position: relative;
+  background: white;
+  appearance: none;
+  height: 100%;
+  width: 100%;
+  border-radius: 100px;
+  box-shadow: inset 0px 1px 6px rgba(0, 0, 0, 0.25);
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+.switch input:checked[type="checkbox"] {
+  background: #0097fd;
+  box-shadow: inset 0px 1px 6px rgba(0, 0, 0, 0.25);
+}
+.switch input[type="checkbox"]::before {
+  position: absolute;
+  content: "";
+  top: 3px;
+  left: 3px;
+  width: 13px;
+  height: 13px;
+  background: #0097fd;
+  border-radius: 100px;
+}
+.switch input:checked[type="checkbox"]::before {
+  background: white;
+  transform: translateX(15px);
+}
+.explore_nopapers{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.explore_nopapers img{
+  max-width: 200px;
+}
+.explore_nopapers h3{
+  margin-top: 20px;
+  font-size: 1.3em;
+  font-weight: 400;
+  color: white;
+}
+@media screen and (max-width: 425px) {
+  .paper_card {
+    width: 100%;
+  }
+  .explore_papers {
+    grid-template-columns: repeat(auto-fit, 100%);
+  }
+}
+@media screen and (max-width: 764px) {
+  .explore_papers {
+    justify-content: center;
+  }
+}
+
+@media (device-width: 768px) and (device-height: 1024px) {
+  .explore_papers {
+    grid-template-columns: repeat(auto-fit, 350px);
+  }
+}

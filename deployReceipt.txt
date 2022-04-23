@@ -1,0 +1,90 @@
+
+Compiling your contracts...
+===========================
+> Compiling ./contracts/Migrations.sol
+> Compiling ./contracts/paperhouse.sol
+> Compiling @openzeppelin/contracts/token/ERC721/ERC721.sol
+> Compiling @openzeppelin/contracts/token/ERC721/IERC721.sol
+> Compiling @openzeppelin/contracts/token/ERC721/IERC721Receiver.sol
+> Compiling @openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol
+> Compiling @openzeppelin/contracts/token/ERC721/extensions/IERC721Metadata.sol
+> Compiling @openzeppelin/contracts/utils/Address.sol
+> Compiling @openzeppelin/contracts/utils/Context.sol
+> Compiling @openzeppelin/contracts/utils/Counters.sol
+> Compiling @openzeppelin/contracts/utils/Strings.sol
+> Compiling @openzeppelin/contracts/utils/introspection/ERC165.sol
+> Compiling @openzeppelin/contracts/utils/introspection/IERC165.sol
+> Artifacts written to /home/sairajkapdi/Documents/CODE STUFF/paperHouse/PAPER-HOUSE-FINAL-SUBMISSION/PaperHouse/client/src/contracts
+> Compiled successfully using:
+   - solc: 0.8.0+commit.c7dfd78e.Emscripten.clang
+
+
+
+Starting migrations...
+======================
+> Network name:    'maticTest'
+> Network id:      80001
+> Block gas limit: 20000000 (0x1312d00)
+
+
+1_initial_migration.js
+======================
+
+   Replacing 'Migrations'
+   ----------------------
+   > transaction hash:    0x16f521090c524b177b1823d60dea0cc2eff9ee1def2a238752a49f3dd5fa3290
+   > Blocks: 3            Seconds: 4
+   > contract address:    0x22397e34ca93ffEb04C3064D4A46bd732cC67f23
+   > block number:        16962890
+   > block timestamp:     1627565392
+   > account:             0xd4D2761e241b07a367E47a1f3c76d40d12283DF5
+   > balance:             0.349419373900000951
+   > gas used:            201163 (0x311cb)
+   > gas price:           30 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00603489 ETH
+
+   Pausing for 2 confirmations...
+   ------------------------------
+   > confirmation number: 2 (block: 16962893)
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.00603489 ETH
+
+
+2_deploy_contracts.js
+=====================
+
+   Replacing 'PaperHouse'
+   ----------------------
+   > transaction hash:    0x92822ad8a43b71e0dd89d68247c22d2e5613e4debb34a316e93e68062779ed67
+   > Blocks: 2            Seconds: 4
+   > contract address:    0xEA1aC3a3c4B29F55D1271658e8c864B40a6c68E3
+   > block number:        16962900
+   > block timestamp:     1627565412
+   > account:             0xd4D2761e241b07a367E47a1f3c76d40d12283DF5
+   > balance:             0.257955613900000951
+   > gas used:            3002876 (0x2dd1fc)
+   > gas price:           30 gwei
+   > value sent:          0 ETH
+   > total cost:          0.09008628 ETH
+
+   Pausing for 2 confirmations...
+   ------------------------------
+   > confirmation number: 2 (block: 16962903)
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.09008628 ETH
+
+
+Summary
+=======
+> Total deployments:   2
+> Final cost:          0.09612117 ETH
+
+
+

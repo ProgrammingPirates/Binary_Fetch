@@ -1,0 +1,36 @@
+.mypapers {
+  width: 100%;
+  height: 100%;
+}
+.mypapers_title h3 {
+  font-family: "Open Sans";
+  font-weight: 500;
+  font-size: 3em;
+  color: #0097fd;
+  margin-top: 10px;
+}
+
+.mypapers_papers {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 300px);
+  gap: 25px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+@media screen and (max-width: 425px) {
+  .paper_card {
+    width: 100%;
+  }
+  .explore_papers {
+    grid-template-columns: repeat(auto-fit, 100%);
+  }
+  .mypapers_papers {
+    grid-template-columns: auto;
+  }
+}
+@media screen and (max-width: 764px) {
+  .explore_papers {
+    justify-content: center;
+  }
+}

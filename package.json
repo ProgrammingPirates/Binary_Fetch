@@ -1,0 +1,31 @@
+{
+  "name": "bookbak",
+  "version": "1.0.0",
+  "description": "hack36",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Paper-House/PaperHouse.git"
+  },
+  "keywords": [],
+  "author": "Hack36",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Paper-House/PaperHouse/issues"
+  },
+  "homepage": "https://github.com/Paper-House/PaperHouse#readme",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.2.0",
+    "@truffle/hdwallet-provider": "^1.4.1"
+  },
+  "devDependencies": {
+    "@iconify/icons-akar-icons": "^1.1.16",
+    "@iconify/react": "^1.1.4"
+  }
+}
