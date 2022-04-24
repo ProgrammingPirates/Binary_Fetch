@@ -6,7 +6,7 @@
 
 
 ## Introduction:
-  An NFT Platform for Researchers. A place where a researcher can mint their research paper and publish and also get funded on our platform. Much of the world is yet to be introduced to cryptocurrencies, DeFi, and NFTs. Our aim with this project is to onboard researchers and scholars to the world of crypto and introduce them to DeFi, Blockchain.
+  ****An NFT Platform for Researchers. A place where a researcher can mint their research paper and publish and also get funded on our platform. Much of the world is yet to be introduced to cryptocurrencies, DeFi, and NFTs. Our aim with this project is to onboard researchers and scholars to the world of crypto and introduce them to DeFi, Blockchain.
   
 ## Demo Video Link:
   <a href="https://youtu.be/furB7RhNEek"></a>
@@ -18,8 +18,6 @@
 ## Table of Contents:
 
 ## Technology Stack:
-
- ## Built With
 
 - [React]
 - [Redux]
