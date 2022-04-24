@@ -424,7 +424,7 @@ export const Paper = (props) => {
               ) : (
                 <>
                   <a
-                    href={`https://mumbai.polygonscan.com/token/0xea1ac3a3c4b29f55d1271658e8c864b40a6c68e3?a=${paperid}`}
+                    href={`https://mumbai.polygonscan.com/address/0x6e80ad7cd3bda8080078f8669acbe358a8a68d2b`}
                     target="_blank"
                   >
                     <button className="paper_view_polyscan">

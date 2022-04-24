@@ -79,7 +79,7 @@ export const Navbar = () => {
               paper.thumbnail = getURL(metadata.data.image);
               paper.category = metadata.data.category.toLowerCase();
               paper.author = metadata.data.author;
-           //   paper.date = metadata.data.publishDate;
+        
              paper.publisher = data.owner;
               dispatch(setPapers(paper));
             });
@@ -134,7 +134,6 @@ export const Navbar = () => {
                   title: data.name,
                   author: data.author,
                   publisher: paper.owner,
-                  date: data.publishDate,
                   thumbnail: thumbnail,
                   category: data.category,
                   allowFunding: JSON.parse(paper.allowFunding),
@@ -284,7 +283,7 @@ export const Navbar = () => {
             </div>
             <div className="nav-buttons-right">
               <NavLink id="publish" to="/publish">
-                Create NFT
+                publish
               </NavLink>
               <a
                 id="connect"
@@ -379,7 +378,7 @@ export const Navbar = () => {
                           to="/publish"
                           onClick={hamburgerClickHandle}
                         >
-                          Create NFT
+                          publish
                         </NavLink>
                         <a
                           id="connect"
