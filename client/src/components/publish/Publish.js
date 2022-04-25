@@ -365,7 +365,7 @@ export const Publish = () => {
                 <h2>Author</h2>
                 <input
                   type="text"
-                  placeholder="Satoshi Nakamoto"
+                  placeholder="Puja"
                   ref={author}
                   maxlength="30"
                   required
@@ -423,7 +423,7 @@ export const Publish = () => {
                   not be able to edit or update any of its information.
                 </p>
                 <p id="Publish__form--input--terms--item2">
-                  You agree that any information uploaded to the Paper House
+                  You agree that any information uploaded to the Book Bank
                   will not contain material subject to copyright or other
                   proprietary rights, unless you have necessary permission or
                   are otherwise legally entitled to post the material.

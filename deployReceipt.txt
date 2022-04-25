@@ -14,7 +14,6 @@ Compiling your contracts...
 > Compiling @openzeppelin/contracts/utils/Strings.sol
 > Compiling @openzeppelin/contracts/utils/introspection/ERC165.sol
 > Compiling @openzeppelin/contracts/utils/introspection/IERC165.sol
-> Artifacts written to /home/sairajkapdi/Documents/CODE STUFF/paperHouse/PAPER-HOUSE-FINAL-SUBMISSION/PaperHouse/client/src/contracts
 > Compiled successfully using:
    - solc: 0.8.0+commit.c7dfd78e.Emscripten.clang
 
