@@ -1,5 +1,5 @@
 
-<p align="center"><h1 align="center">Hack36 2022 </h1>
+<p align="center"><h1 align="center">Hack36 2022</h1>
 </p>
 
 <p align="center"><a href="https://hack36.com"> <img src="https://cutt.ly/BuiltAtHack36" height=24px> </a> </p>
@@ -39,7 +39,7 @@
 
 ## Contributors:
 
-* [Prince verma]()
+* [Prince]()
 *  [Puja Kumari]()
 * [Dhamrendra]()
 * [Gautam]()
