@@ -39,10 +39,10 @@
 
 ## Contributors:
 
-* [Prince]()
+* [Prince verma]()
 *  [Puja Kumari]()
 * [Dhamrendra]()
-* [Gautam]()
+* [Gautam Kumar]()
 ![5](https://user-images.githubusercontent.com/78801686/165016007-20738792-0090-426c-bb17-8c3a113ce863.jpeg)
 
 
