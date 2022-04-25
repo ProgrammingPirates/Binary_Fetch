@@ -35,9 +35,9 @@
 
 ## Team Name: Binary Fetch
 
-* [Dhamrendra]()
 * [Prince]()
-* [Puja]()
+*  [Puja]()
+* [Dhamrendra]()
 * [Gautam]()
 
 
