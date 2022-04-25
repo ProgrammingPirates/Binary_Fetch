@@ -7,20 +7,24 @@
 
 ## Introduction:
  __An NFT Platform for Researchers. A place where a researcher can mint their research paper and publish and also get funded on our platform. Much of the world is yet to be introduced to cryptocurrencies, DeFi, and NFTs. Our aim with this project is to onboard researchers and scholars to the world of crypto and introduce them to DeFi, Blockchain.__
+ ![1](https://user-images.githubusercontent.com/78801686/165015913-4b91a35c-5a7a-4676-91a1-4b70d3c14f8a.jpeg)
+
+
+ __A Researcher can Mint and Publish their research papers on Book Bank. Minting validates the research paper, keeping the originality of the paper linked safely with the Author, which would help prevent Piracy & duplication of Research Papers. Researchers can also be funded right on the same platform. Many research works get dropped due to lack of funding and support, Funding Research Papers on Book Bank would motivate the researchers to carry forward the research work.__![2](https://user-images.githubusercontent.com/78801686/165015934-cbec46f8-1120-49de-916f-2d14958ea7c4.jpeg)
  
 
- __A Researcher can Mint and Publish their research papers on Book Bank. Minting validates the research paper, keeping the originality of the paper linked safely with the Author, which would help prevent Piracy & duplication of Research Papers. Researchers can also be funded right on the same platform. Many research works get dropped due to lack of funding and support, Funding Research Papers on Book Bank would motivate the researchers to carry forward the research work.__
   
 ## Demo Video Link:
   <a href="https://youtu.be/furB7RhNEek">Video link</a>
   
 ## Presentation Link:
   <a href="https://drive.google.com/file/d/1gK5G35hDkAZrc0V01rAA5xR1WbyRlSTB/view?usp=sharing"> PPT link here </a>
-  
+  ![3](https://user-images.githubusercontent.com/78801686/165015967-23df9b76-607f-4bbd-911f-20f153ebe881.jpeg)
+
 
 ## Technology Stack:
 
-## Built With
+
 
  - [React](https://reactjs.org/) - React is a free and open-source front-end JavaScript library for building user interfaces or UI components.
  - [Redux](https://redux.js.org/) - Redux is an open-source JavaScript library for managing application state.
@@ -30,15 +34,16 @@
  - [The Graph](https://thegraph.com/) - The Graph is an indexing protocol for querying networks like Ethereum and IPFS. Anyone can build and publish open APIs, called subgraphs, making data easily accessible.
  - [NFT Storage](https://nft.storage/) - Free decentralized storage and bandwidth for NFTs on IPFS and Filecoin.
   
+![4](https://user-images.githubusercontent.com/78801686/165015974-35181fc5-7dff-433b-9c16-a8d27d83433f.jpeg)
+## Team Name: Binary Fetch
 
 ## Contributors:
-
-## Team Name: Binary Fetch
 
 * [Prince]()
 *  [Puja]()
 * [Dhamrendra]()
 * [Gautam]()
+![5](https://user-images.githubusercontent.com/78801686/165016007-20738792-0090-426c-bb17-8c3a113ce863.jpeg)
 
 
 ### Made at:
