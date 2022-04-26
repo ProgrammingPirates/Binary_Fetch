@@ -54,6 +54,15 @@ export const Explore = () => {
         </button>
         <button
           className="explore_category_item"
+          aria-expanded={category === "science" ? true : false}
+          onClick={(e) =>
+            setcategory(e.target.innerText.split(" ")[1].toLowerCase())
+          }
+        >
+          Mnnit Research Paper
+        </button>
+        <button
+          className="explore_category_item"
           aria-expanded={category === "space" ? true : false}
           onClick={(e) =>
             setcategory(e.target.innerText.split(" ")[1].toLowerCase())

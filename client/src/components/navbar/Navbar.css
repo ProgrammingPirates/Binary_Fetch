@@ -2,7 +2,7 @@
   top: 0;
   z-index: 999;
   position: fixed;
-  background: rgba(0, 47, 80, 1);
+  background: rgb(26, 13, 71);
   padding: 0px 20px 0px 20px;
   width: 100%;
 }
@@ -10,7 +10,7 @@
   (-webkit-backdrop-filter: blur(2em)) or (backdrop-filter: blur(2em))
 ) {
   .nav__backdrop {
-    background: rgba(0, 47, 80, 0.3);
+    background: rgb(253, 175, 6);
     backdrop-filter: saturate(100%) blur(20px);
   }
 }
@@ -86,20 +86,21 @@ input:focus {
 }
 
 .nav-buttons a {
-  color: #0097fd;
-  font-family: "Open Sans";
+  color: #000000;
+  background: #00fd00;
+  font-family: 'PT Serif', serif;
   font-size: 1em;
   font-weight: 600;
   cursor: pointer;
   transition: 0.2s ease-in;
 }
 .active {
-  color: white;
+  color: rgb(47, 99, 197);
 }
 #connect {
-  background: #0097fd;
+  background: #00fd00;
   /* box-shadow: 8px 12px 14px rgba(0, 151, 253, 0.19), inset 0px 4px 30px #6447f4; */
-  color: white;
+  color: rgb(0, 0, 0);
   padding: 8px 7px 8px 7px;
   border-radius: 26px;
   transition: 0.25s ease-in-out;
@@ -107,7 +108,7 @@ input:focus {
 }
 
 #publish {
-  background: rgba(53, 162, 252, 0.34);
+  background: rgb(13, 255, 5);
   border: 1px solid #0097fd;
   box-sizing: border-box;
   border-radius: 26px;
@@ -116,7 +117,7 @@ input:focus {
 }
 
 #publish:hover {
-  background: rgba(53, 162, 252, 0.5);
+  background: rgba(243, 20, 4, 0.5);
 }
 
 #explore,
@@ -176,8 +177,8 @@ input:focus {
   text-align: center;
   width: 500px;
   height: fit-content;
-  background-color: #092537;
-  border: 2px solid #0097fd;
+  background-color: #f809d8;
+  border: 2px solid #fd009c;
   border-radius: 10px;
   padding: 20px 25px;
 }

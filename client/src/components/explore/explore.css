@@ -4,10 +4,10 @@
   margin-top: 65px;
 }
 .explore_title h3 {
-  font-family: "Open Sans";
+  font-family: 'PT Serif', serif;
   font-weight: 500;
   font-size: 3em;
-  color: #0097fd;
+  color: #fdf900;
   margin-top: 10px;
 }
 .explore_categories {
@@ -20,9 +20,9 @@
 .explore_category_item {
   padding: 5px 20px;
   border-radius: 100px;
-  border: 1px solid #0097fd;
+  border: 1px solid #000000;
   cursor: pointer;
-  color: #0097fd;
+  color: #ffffff;
   margin-right: 15px;
   transition: 0.2s ease-in-out;
   background-color: transparent;
@@ -37,14 +37,14 @@
 
 .explore_category_item:hover {
   color: white;
-  background-color: #0097fd;
-  box-shadow: 0px 0px 10px #0097fd;
+  background-color: #fdba00;
+  box-shadow: 0px 0px 10px #ecfd00;
 }
 
 button[aria-expanded="true"] {
   color: white;
-  background-color: #0097fd;
-  box-shadow: 0px 0px 10px #0097fd;
+  background-color: #32d600;
+  box-shadow: 0px 0px 10px #33fd00;
 }
 .explore_papers {
   display: grid;
@@ -58,14 +58,14 @@ button[aria-expanded="true"] {
 .paper_card {
   width: 300px;
   height: fit-content;
-  border: 2px solid #0097fd;
+  border: 2px solid #16fff3;
   border-radius: 10px;
   overflow: hidden;
   transition: 0.2s ease-in-out;
 }
 
 .paper_card:hover {
-  box-shadow: 0px 0px 8px #0097fd;
+  box-shadow: 0px 0px 8px #01f8ec;
 }
 .paper_card_img {
   width: 100%;
@@ -80,13 +80,14 @@ button[aria-expanded="true"] {
   padding: 10px;
 }
 .paper_card_title h3 {
-  font-family: "Open Sans";
+  font-family: 'PT Serif', serif;
   font-size: 1em;
-  color: white;
+  color: rgb(217, 255, 0);
   font-weight: 600;
 }
 
 .paper_card_author {
+  font-family: 'PT Serif', serif;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -94,9 +95,9 @@ button[aria-expanded="true"] {
 }
 .paper_card_author h3,
 .paper_card_date h3 {
-  font-family: "Open Sans";
+  font-family: 'PT Serif', serif;
   font-size: 0.9em;
-  color: white;
+  color: rgb(255, 255, 255);
   font-weight: 500;
   margin-top: 10px;
 }
@@ -105,9 +106,9 @@ button[aria-expanded="true"] {
   padding: 5px 10px;
   font-family: "Open Sans";
   font-size: 0.9em;
-  color: white;
+  color: rgb(255, 255, 255);
   font-weight: 500;
-  background-color: #0097fd;
+  background-color: #08ac1e;
   width: fit-content;
   border-radius: 100px;
 }
@@ -126,7 +127,7 @@ button[aria-expanded="true"] {
 .paper_card_fundamount_input h3 {
   font-family: "Open Sans";
   font-size: 1em;
-  color: #0097fd;
+  color: #1cfff4;
   font-weight: 600;
 }
 .paper_card_fundamount_input_disabled {
@@ -141,7 +142,7 @@ button[aria-expanded="true"] {
 
 .paper_card_update button {
   padding: 5px 15px;
-  background-color: #0097fd;
+  background-color: #dee3e6;
   color: white;
   font-size: 1.1em;
   font-weight: 400;
@@ -155,16 +156,16 @@ button[aria-expanded="true"] {
   width: 80px;
   height: 25px;
   border-radius: 100px;
-  background-color: rgba(0, 151, 253, 0.3);
+  background-color: rgba(30, 238, 228, 0.733);
   border: none;
   outline: none;
   padding: 10px;
   font-size: 1em;
-  color: #0097fd;
+  color: #2df3f3;
   font-weight: 400;
 }
 .paper_card_fundamount_input input::placeholder {
-  color: #0097fd;
+  color: #20f1e7;
 }
 
 .switch {
@@ -185,7 +186,7 @@ button[aria-expanded="true"] {
   cursor: pointer;
 }
 .switch input:checked[type="checkbox"] {
-  background: #0097fd;
+  background: #1cf3cf;
   box-shadow: inset 0px 1px 6px rgba(0, 0, 0, 0.25);
 }
 .switch input[type="checkbox"]::before {
@@ -195,7 +196,7 @@ button[aria-expanded="true"] {
   left: 3px;
   width: 13px;
   height: 13px;
-  background: #0097fd;
+  background: #19eefd;
   border-radius: 100px;
 }
 .switch input:checked[type="checkbox"]::before {
