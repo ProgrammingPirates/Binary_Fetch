@@ -6,18 +6,21 @@
 <p align="center"><a href="https://hack36.com"> <img src="https://cutt.ly/BuiltAtHack36" height=24px> </a> </p>
 
 ## Introduction:
- * An Blockchain Platform for Researchers. 
- * A place where a researcher can mint their research paper and publish and also get funded on our platform. 
- * Much of the world is yet to be introduced to cryptocurrencies, DeFi, and NFTs. 
- * Our aim with this project is to onboard researchers and scholars to the world of crypto and introduce them to DeFi, Blockchain.
+ Introducing a Book Bank Blockchain Platform for Researchers, providing a platform where researchers can mint their research papers and publish them, while also being able to secure funding through the platform.
+
+With the aim of introducing researchers and scholars to the world of cryptocurrencies, DeFi, and NFTs, our platform offers a unique opportunity to combine traditional academic publishing with the power of blockchain technology. By using our platform, researchers can increase the visibility of their work, while also being able to secure funding through the use of cryptocurrency.
+
+Our platform offers a user-friendly interface that simplifies the process of publishing research papers and minting them as NFTs. The platform also provides researchers with the ability to track and manage their published work, as well as access funding opportunities directly through the platform.
+
+Join us in the revolution of academic publishing, as we combine traditional academic practices with the security and transparency of blockchain technology.
 
  ![1](https://user-images.githubusercontent.com/78801686/165015913-4b91a35c-5a7a-4676-91a1-4b70d3c14f8a.jpeg)
 
 
- * A Researcher can Mint and Publish their research papers on Book Bank. 
- * Minting validates the research paper, keeping the originality of the paper linked safely with the Author, which would help prevent Piracy & duplication of Research Papers. 
- * Researchers can also be funded right on the same platform. 
- * Many research works get dropped due to lack of funding and support, Funding Research Papers on Book Bank would motivate the researchers to carry forward the research work.
+* Book Bank is a blockchain platform designed for researchers to mint and publish their research papers.
+* The platform uses minting to validate the research paper and link it securely with the author, ensuring the originality of the paper and preventing piracy and duplication.
+* Researchers can also receive funding on the same platform, which is a crucial support for many researchers whose work may get dropped due to lack of funding and support.
+* By funding research papers on Book Bank, researchers are motivated to carry forward their research work and contribute to the scientific community.
  
   
     ![2](https://user-images.githubusercontent.com/78801686/165015934-cbec46f8-1120-49de-916f-2d14958ea7c4.jpeg)
