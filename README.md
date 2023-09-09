@@ -4,7 +4,14 @@
 
 
 <p align="center"><a href="https://hack36.com"> <img src="https://cutt.ly/BuiltAtHack36" height=24px> </a> </p>
+## Introduction of my project
+ Introducing a Book Bank Blockchain Platform for Researchers, providing a platform where researchers can mint their research papers and publish them, while also being able to secure funding through the platform.
 
+With the aim of introducing researchers and scholars to the world of cryptocurrencies, DeFi, and NFTs, our platform offers a unique opportunity to combine traditional academic publishing with the power of blockchain technology. By using our platform, researchers can increase the visibility of their work, while also being able to secure funding through the use of cryptocurrency.
+
+Our platform offers a user-friendly interface that simplifies the process of publishing research papers and minting them as NFTs. The platform also provides researchers with the ability to track and manage their published work, as well as access funding opportunities directly through the platform.
+
+Join us in the revolution of academic publishing, as we combine traditional academic practices with the security and transparency of blockchain technology.
 
  ![1](https://user-images.githubusercontent.com/78801686/165015913-4b91a35c-5a7a-4676-91a1-4b70d3c14f8a.jpeg)
 
